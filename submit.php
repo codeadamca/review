@@ -17,6 +17,7 @@ mail(
 */
 
 $apiKey = '';
+$apiKey = getenv('BREVO_API_KEY'); // Set your API key in environment variable
 
 $curl = curl_init();
 
